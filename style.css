@@ -1,0 +1,103 @@
+#header{
+    background-color: #000957;
+}
+
+.nav-item{
+    font-weight: 500;
+}
+
+.nav-link{
+    color: #fff !important;
+}
+
+.nav-link:hover{
+    color: #577BC1 !important;
+}
+
+#hero{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;  
+}
+
+.roland{
+    color: #344CB7;
+}
+
+.home-greet{
+    font-size: 1.5rem;
+}
+
+#about{
+    height: 100vh;
+}
+
+#skills{
+    height: 100vh;
+}
+
+.feature-icon {
+    width: 4rem;
+    height: 4rem;
+    border-radius: .75rem;
+    background-color: #000957;
+}
+
+#projects{
+    height: 100vh;
+}
+
+.bottom {
+    color: #000957;
+}
+
+@media (max-width: 1200px) {
+    #about{
+        height: 1050px !important;
+    }
+    #projects{
+        height: 1000px !important;
+    }
+}
+
+@media (max-width: 992px) {
+    #about{
+        height: 1200px !important;
+    }
+    #skills{
+        height: 1800px !important;
+    }
+    #projects{
+        height: 1530px !important;
+    }
+}
+
+@media (max-width: 768px) {
+    #about{
+        height: 1500px !important;
+    }
+    #projects{
+        height: 1670px !important;
+    }
+}
+
+@media (max-width: 540px) {
+    #about{
+        height: 1700px !important;
+    }
+    #projects{
+        height: 1670px !important;
+    }
+}
+@media (max-width: 484px) {
+    #about{
+        height: 2200px !important;
+    }
+    #skills{
+        height: 2000px !important;
+    }
+    #projects{
+        height: 1900px !important;
+    }
+}
